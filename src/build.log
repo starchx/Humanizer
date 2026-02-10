@@ -1,0 +1,12 @@
+  Determining projects to restore...
+  Restored /Users/xinchx/dev/aws/templated-based-code-upgrade/Humanizer/src/Humanizer/Humanizer.csproj (in 1.24 sec).
+/usr/local/share/dotnet/sdk/10.0.102/Microsoft.Common.CurrentVersion.targets(1259,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.0 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [/Users/xinchx/dev/aws/templated-based-code-upgrade/Humanizer/src/Humanizer.Tests/Humanizer.Tests.csproj]
+  Humanizer -> /Users/xinchx/dev/aws/templated-based-code-upgrade/Humanizer/src/Humanizer/bin/Debug/net8.0/Humanizer.dll
+
+Build FAILED.
+
+/usr/local/share/dotnet/sdk/10.0.102/Microsoft.Common.CurrentVersion.targets(1259,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.0 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [/Users/xinchx/dev/aws/templated-based-code-upgrade/Humanizer/src/Humanizer.Tests/Humanizer.Tests.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:04.81
