@@ -1,6 +1,6 @@
 ﻿using Humanizer.Bytes;
 using Xunit;
-using Xunit.Extensions;
+using Xunit;
 
 namespace Humanizer.Tests.Bytes
 {

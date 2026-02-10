@@ -1,35 +1,35 @@
 ﻿using System.Collections.Generic;
 using Humanizer.Localisation;
 using Xunit;
-using Xunit.Extensions;
+using Xunit;
 
 namespace Humanizer.Tests
 {
     public class ResourceKeyTests
     {
         [Theory]
-        [PropertyData("DateHumanizeResourceKeys")]
+        [MemberData(nameof(DateHumanizeResourceKeys))]
         public void DateHumanizeKeysGeneration(string expected, string actual)
         {
             Assert.Equal(expected, actual);
         }
 
         [Theory]
-        [PropertyData("TimeSpanHumanizeResourceKeys")]
+        [MemberData(nameof(TimeSpanHumanizeResourceKeys))]
         public void TimeSpanHumanizeKeysGeneration(string expected, string actual)
         {
             Assert.Equal(expected, actual);
         }
 
         [Theory]
-        [PropertyData("DateHumanizeResourceKeys")]
+        [MemberData(nameof(DateHumanizeResourceKeys))]
         public void DateHumanizeKeysExistence(string expectedResourceKey, string generatedResourceKey)
         {
             Assert.NotNull(Resources.GetResource(generatedResourceKey));
         }
 
         [Theory]
-        [PropertyData("TimeSpanHumanizeResourceKeys")]
+        [MemberData(nameof(TimeSpanHumanizeResourceKeys))]
         public void TimeSpanHumanizeKeysExistence(string expectedResourceKey, string generatedResourceKey)
         {
             Assert.NotNull(Resources.GetResource(generatedResourceKey));
