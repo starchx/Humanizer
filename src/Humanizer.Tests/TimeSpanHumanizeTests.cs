@@ -2,7 +2,7 @@
 using System.Globalization;
 using Humanizer.Localisation;
 using Xunit;
-using Xunit.Extensions;
+using Xunit;
 
 namespace Humanizer.Tests
 {

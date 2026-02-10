@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using Xunit;
-using Xunit.Extensions;
+using Xunit;
 
 namespace Humanizer.Tests.Localisation.sr
 {

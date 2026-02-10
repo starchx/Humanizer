@@ -4,7 +4,7 @@ using System.Threading;
 using Humanizer.Localisation;
 using Humanizer.Localisation.Formatters;
 using Xunit;
-using Xunit.Extensions;
+using Xunit;
 
 namespace Humanizer.Tests.Localisation
 {
